@@ -1,0 +1,29 @@
+{
+    "name": "areio.engine.libs.wasm_time_linker",
+    "description": "Core engine librarie",
+    "build_commands":
+    [
+        "cmake -P build_package.cmake"
+    ],
+    "install_commands": 
+    [
+        "cmake -P install_package.cmake"
+    ],
+    "dependencies": 
+    {
+        "packages": [
+            {
+                "git_url": "https://github.com/BigElderK/ArieoEngine-BuildEnv.git",
+                "tag": "main"
+            },
+            {
+                "git_url": "https://github.com/BigElderK/ArieoEngine-ThirdParties.git",
+                "tag": "main"
+            },
+            {
+                "git_url": "https://github.com/BigElderK/ArieoEngine-Core.git",
+                "tag": "main"
+            }
+        ]
+    }
+}

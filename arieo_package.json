@@ -1,5 +1,5 @@
 {
-    "name": "Arieo-Lib-WasmTimeLinker",
+    "name": "Arieo-Lib-WasmtimeLinker",
     "description": "Core engine librarie",
     "build_commands":
     [

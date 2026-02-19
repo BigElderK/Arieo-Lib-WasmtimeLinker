@@ -5,6 +5,8 @@ project(ArieoEngine)
 arieo_engine_project(
     arieo_wasmtime_linker_lib
     PROJECT_TYPE headonly_library
-    PUBLIC_INCLUDE_FOLDERS
-        ${CMAKE_CURRENT_LIST_DIR}/public/include
+
+    SOURCES
+        INTERFACE_INCLUDE_FOLDERS
+            ${CMAKE_CURRENT_LIST_DIR}/public/include
 )

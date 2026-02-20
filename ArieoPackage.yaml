@@ -5,7 +5,7 @@ description: Core engine librarie
 build_folder: ${ARIEO_PACKAGE_BUILD_FOLDER}/${ARIEO_PACKAGE_CATEGORY}/${ARIEO_PACKAGE_NAME}/${CMAKE_CONFIGURE_PRESET}
 install_folder: ${ARIEO_PACKAGE_INSTALL_FOLDER}/${ARIEO_PACKAGE_CATEGORY}/${ARIEO_PACKAGE_NAME}/${CMAKE_CONFIGURE_PRESET}
 
-cmake_presets_file: $ENV{ARIEO_BUILDENV_PACKAGE_INSTALL_FOLDER}/cmake/CMakePresets.json
+cmake_presets_file: $env{ARIEO_BUILD_ENV_PACKAGES_OUTPUT_DIR}/cmake/CMakePresets.json
 build_commands:
 - ${CMAKE_COMMAND} --build .
 install_commands:

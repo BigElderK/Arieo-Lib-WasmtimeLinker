@@ -10,12 +10,6 @@ ARIEO_ENGINE_PROJECT(
     arieo_wasmtime_linker_lib
 
     PROJECT_TYPE headonly_library
-
-    DEPENDENCIES
-        ARIEO_PACKAGES
-            Arieo-Core
-        INTERFACES
-            Arieo-Core::arieo_core
     SOURCES
         INTERFACE_INCLUDE_FOLDERS
             ${CMAKE_CURRENT_SOURCE_DIR}/public/include

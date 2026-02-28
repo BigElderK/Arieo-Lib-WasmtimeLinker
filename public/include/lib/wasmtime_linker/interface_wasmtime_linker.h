@@ -240,3 +240,8 @@ namespace Arieo::Lib::WasmtimeLinker
 
     typedef LinkerExportInfo* (*DLLExportLinkInterfacesFn)(std::uint64_t version_checksum);
 }
+
+
+
+
+
